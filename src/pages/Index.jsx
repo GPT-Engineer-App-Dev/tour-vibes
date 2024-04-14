@@ -1,6 +1,10 @@
 import React from "react";
 import { Box, Heading, Text, Image, Container, Stack, Button, useColorModeValue } from "@chakra-ui/react";
 import { FaTicketAlt } from "react-icons/fa";
+import UpcomingShows from "../components/UpcomingShows";
+import AboutBand from "../components/AboutBand";
+import MusicSocialLinks from "../components/MusicSocialLinks";
+import MailingListSignup from "../components/MailingListSignup";
 
 const Index = () => {
   return (
@@ -31,13 +35,17 @@ const Index = () => {
         </Box>
       </Box>
 
-      {/* Upcoming Shows Section */}
-      <Container maxW="container.lg" py={12}>
-        <Heading as="h3" size="xl" color="white" mb={8}>
-          Upcoming Shows
-        </Heading>
-        {/* Add upcoming shows content */}
-      </Container>
+      {}
+      <UpcomingShows />
+
+      {}
+      <AboutBand />
+
+      {}
+      <MusicSocialLinks />
+
+      {}
+      <MailingListSignup />
     </Box>
   );
 };
